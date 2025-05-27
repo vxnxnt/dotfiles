@@ -1,0 +1,57 @@
+cursor:
+  style:
+    #Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Underline
+    blinking: Always
+
+  blink_interval: 800
+
+window:
+  opacity: 1
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
+# font:
+  normal:
+    family: JetBrainsMono Nerd Font Bandit
+
+colors:
+  cursor:
+    text: '0xFEFFF2'
+    cursor: '0x7749BE'
+
+  primary:
+    background: '0x121212'
+    foreground: '0xC6C6C4'
+
+  selection:
+    background: '0x0087BD'
+    text: '0xFFD700'
+
+  normal:
+    black:   '0x10100E'
+    red:     '0xC40233'
+    green:   '0x009F6B'
+    yellow:  '0xFFD700'
+    blue:    '0x0087BD'
+    magenta: '0x7749BE'
+    cyan:    '0x20B2AA'
+    white:   '0xC6C6C4'
+
+  bright:
+    black:   '0x696969'
+    red:     '0xFF2400'
+    green:   '0x03C03C'
+    yellow:  '0xFDFF00'
+    blue:    '0x007FFF'
+    magenta: '0xFF1493'
+    cyan:    '0x00CCCC'
+    white:   '0xFFFAFA'
